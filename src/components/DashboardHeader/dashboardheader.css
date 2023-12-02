@@ -1,0 +1,64 @@
+.dashbord-header-container {
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #e9f2f8;
+  height: 10%;
+}
+.profile-menu {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  background-color: white;
+  margin-right: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.profile-menu p:hover {
+  cursor: pointer;
+  text-decoration: underline; /* You can change this as needed */
+}
+.menu-line {
+  height: 1px;
+  width: 100%;
+  background-color: #ccc; /* Change this to your desired line color */
+  margin: 8px 0; /* Adjust the margin as needed */
+}
+.dashbord-header-btn {
+  padding: 0.8em;
+  padding-left: 2em;
+  padding-right: 2em;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border-radius: 8px;
+  text-transform: uppercase;
+  border: 1px solid #015c92;
+  background-color: #015c92;
+}
+.dashbord-header-btn:hover {
+  color: #015c92;
+  border: 1px solid #015c92;
+  background-color: #f0f2f5;
+}
+.dashbord-header-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dashbord-header-icon {
+  width: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.dashbord-header-avatar {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 20px;
+}

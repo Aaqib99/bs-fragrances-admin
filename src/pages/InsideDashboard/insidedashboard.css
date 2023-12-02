@@ -1,0 +1,5 @@
+.inside-main-area {
+  margin: 30px;
+  display: flex;
+  /* gap: 60px; */
+}
